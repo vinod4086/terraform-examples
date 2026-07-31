@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "readme": "node repotools/generate_readme.js"
+    "readme": "node repotools/generate_readme.js",
+    "prepare": "git config core.hooksPath .githooks"
   },
   "devDependencies": {
     "glob": "^7.1.6"
